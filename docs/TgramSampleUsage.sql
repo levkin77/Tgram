@@ -1,61 +1,65 @@
------------------------------------------
- -- HTML проверка иконок для уровня
+п»ї-----------------------------------------
+ -- HTML РїСЂРѕРІРµСЂРєР° РёРєРѕРЅРѕРє РґР»СЏ СѓСЂРѕРІРЅСЏ
  exec Tgram.CreateNewMessageHtml @GroupId = 1, 
- @MsgText = 'Проверка персонального сообщения HTML Level 0',
- @MsgLevel = 0  -- ничего
+ @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ HTML Level 0',
+ @MsgLevel = 0  -- РЅРёС‡РµРіРѕ
 go
 exec Tgram.CreateNewMessageHtml @GroupId = 1, 
- @MsgText = 'Проверка персонального сообщения HTML Level 1',
- @MsgLevel = 1 -- белый
+ @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ HTML Level 1',
+ @MsgLevel = 1 -- Р±РµР»С‹Р№
 go
 exec Tgram.CreateNewMessageHtml @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения HTML Level 2',
-    @MsgLevel = 2 --зеленый
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ HTML Level 2',
+    @MsgLevel = 2 --Р·РµР»РµРЅС‹Р№
 go
 exec Tgram.CreateNewMessageHtml @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения HTML Level 3',
-    @MsgLevel = 3 --желтый
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ HTML Level 3',
+    @MsgLevel = 3 --Р¶РµР»С‚С‹Р№
 go
 exec Tgram.CreateNewMessageHtml @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения HTML Level 4',
-    @MsgLevel = 4 --красный
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ HTML Level 4',
+    @MsgLevel = 4 --РєСЂР°СЃРЅС‹Р№
 go
 -----------------------------------------
 -- MarkdownV2
 exec Tgram.CreateNewMessageMarkdownV2 @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения Markdown Level 0',
-    @MsgLevel = 0 -- ничего
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ Markdown Level 0',
+    @MsgLevel = 0 -- РЅРёС‡РµРіРѕ
 go
 exec Tgram.CreateNewMessageMarkdownV2 @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения Markdown Level 1',
-    @MsgLevel = 1 -- белый
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ Markdown Level 1',
+    @MsgLevel = 1 -- Р±РµР»С‹Р№
 go
 exec Tgram.CreateNewMessageMarkdownV2 @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения Markdown Level 2',
-    @MsgLevel = 2 --зеленый
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ Markdown Level 2',
+    @MsgLevel = 2 --Р·РµР»РµРЅС‹Р№
 go
 exec Tgram.CreateNewMessageMarkdownV2 @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения Markdown Level 3',
-    @MsgLevel = 3 --желтый
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ Markdown Level 3',
+    @MsgLevel = 3 --Р¶РµР»С‚С‹Р№
 go
 exec Tgram.CreateNewMessageMarkdownV2 @GroupId = 1, 
-    @MsgText = 'Проверка персонального сообщения Markdown Level 4',
-    @MsgLevel = 4 --красный
+    @MsgText = 'РџСЂРѕРІРµСЂРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ Markdown Level 4',
+    @MsgLevel = 4 --РєСЂР°СЃРЅС‹Р№
 go
 -----------------------------------------
--- отправка файлов
+-- РѕС‚РїСЂР°РІРєР° С„Р°Р№Р»РѕРІ
 exec Tgram.CreateNewMessageFile  @GroupId = 1, 
     @MsgText = 'c:\Data\telebot_tool\TgramDocuments.zip'
 go
--- отправка фото
+-- РѕС‚РїСЂР°РІРєР° С„РѕС‚Рѕ
 exec Tgram.CreateNewMessageFilePhoto  @GroupId = 1, 
     @MsgText = 'C:\Data\SampleImage\lagrePic.jpg'
 go
--- отправка фото из web
+-- РѕС‚РїСЂР°РІРєР° С„РѕС‚Рѕ РёР· web
 exec Tgram.CreateNewMessageFileWebPhoto @GroupId = 1, 
     @MsgText = 'https://github.com/TelegramBots/book/raw/master/src/docs/photo-ara.jpg'
 go
--- отправка файла из из web
+-- РѕС‚РїСЂР°РІРєР° С„Р°Р№Р»Р° РёР· РёР· web
 exec Tgram.CreateNewMessageFileWebPhoto @GroupId = 1, 
     @MsgText = 'https://github.com/TelegramBots/book/raw/master/src/docs/photo-ara.jpg'
+go
+-- РѕС‚РїСЂР°РІРєР° С„Р°Р№Р»Р° РёР· РёР· web
+exec Tgram.CreateNewMessageFileWebPhoto @GroupId = 1, 
+    @MsgText = 'https://raw.githubusercontent.com/levkin77/Tgram/main/docs/TgramSampleUsage.sql'
 go
